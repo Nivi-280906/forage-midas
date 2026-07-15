@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 
 @Entity
 public class UserRecord {
-
     @Id
     @GeneratedValue()
     private long id;
